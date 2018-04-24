@@ -1,0 +1,26 @@
+{
+  "name": "newsite",
+  "description": "UV",
+  "main": "index.js",
+  "authors": [
+    "Bogdan.Yartsun"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "owl.carousel": "^2.1.5"
+  },
+  "devDependencies": {
+    "magnific-popup": "^1.1.0",
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}
