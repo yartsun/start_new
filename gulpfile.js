@@ -43,7 +43,7 @@ gulp.task('browser-sync',['browser-syncs','connect'] ,function(){
 	browserSync({
 		server: {
 			baseDir: 'app',
-			proxy: 'PATH/app',
+			proxy: 'law.loc/app',
 	        port: 8080,
 	        open: true,
 	        notify: false
@@ -52,7 +52,7 @@ gulp.task('browser-sync',['browser-syncs','connect'] ,function(){
 });
 gulp.task('browser-syncs',['connect'] ,function(){
 	browserSync.init({
-        proxy: "PATH/app"
+        proxy: "law.loc/app"
     });
 });
 
